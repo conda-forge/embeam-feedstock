@@ -1,5 +1,5 @@
 {% set name = "embeam" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/embeam-{{ version }}.tar.gz
-  sha256: fadd532e561b9b7b143c9f407165f655d255575310444c979572c56c456b6284
+  sha256: a9982892d8b5d0a0f00953297bbe54d10cb3f09680b3e27ee2fd980dc1731860
 
 build:
   noarch: python
